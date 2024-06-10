@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="./styles/slider.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slider__wrapper">
+        <button class="slider__button_left">
+          <img src="./img/sliderImg/leftArrow.png" alt="leftArrow" />
+        </button>
+        <div class="slider__container">
+          <div class="slider__line" id="line">
+            <img
+              class="slider__img slider__position-slide current-slide"
+              src="./img/sliderImg/three.jpg"
+              alt="slideImg"
+            />
+            <img
+              class="slider__img slider__position-slide"
+              src="./img/sliderImg/four.jpg"
+              alt="slideImg"
+            />
+            <img
+              class="slider__img slider__position-slide"
+              src="./img/sliderImg/six.jpg"
+              alt="slideImg"
+            />
+            <img
+              class="slider__img slider__position-slide"
+              src="./img/sliderImg/ten.jpg"
+              alt="slideImg"
+            />
+            <img
+              class="slider__img slider__position-slide"
+              src="./img/sliderImg/seven.jpg"
+              alt="slideImg"
+            />
+          </div>
+        </div>
+        <button class="slider__button_right">
+          <img src="./img/sliderImg/rightArrow.png" alt="rightArrow" />
+        </button>
+        <div class="slider__nav">
+          <div class="slider__dot current-slide"></div>
+          <div class="slider__dot"></div>
+          <div class="slider__dot"></div>
+          <div class="slider__dot"></div>
+          <div class="slider__dot"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/slider.js"></script>
+  </body>
+</html>
